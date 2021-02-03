@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, i, button {
+    cursor: pointer;
+}
+
+#nav-icon {
+    display: flex;
+    align-items: center;
+    font-size: 3vw;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+}
